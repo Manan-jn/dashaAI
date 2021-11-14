@@ -140,7 +140,7 @@ async function myFunc() {
 myFunc();
 async function main() {
 
-	const conv = application.createConversation({ phone: "+919811605657", name: "Manan" });
+	const conv = application.createConversation({ phone: <YOUR_PHONE_NUMBER>, name: <NAME> });
 
 	conv.audio.tts = "dasha";
 
